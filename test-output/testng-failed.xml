@@ -6,8 +6,8 @@
       <class name="com.syntax.class11.HW">
         <methods>
           <include name="setUp"/>
-          <include name="controls"/>
           <include name="closeBrowser"/>
+          <include name="iframe"/>
         </methods>
       </class> <!-- com.syntax.class11.HW -->
     </classes>

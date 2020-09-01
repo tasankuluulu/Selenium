@@ -13,7 +13,7 @@ public class handlingCalendars {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:/Users/talaf/eclipse-workspace/SeleniumJavaBatch7/Drivers/chromedriver.exe");
+				"C:\\Users\\cutte\\eclipse-workspace\\Selenium\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
