@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTest" duration-ms="87021" started-at="2020-09-04T00:27:17 EDT" finished-at="2020-09-04T00:28:45 EDT">
+    <groups>
+      <group name="smoke">
+        <method signature="HRMLoginTest.loginTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="loginTests" class="com.syntax.tests.HRMLoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="87021" started-at="2020-09-04T00:27:17 EDT" finished-at="2020-09-04T00:28:45 EDT">
+      <class name="com.syntax.tests.HRMLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="setUp" is-config="true" duration-ms="7730" started-at="2020-09-04T00:27:18 EDT" finished-at="2020-09-04T00:27:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="loginTests" duration-ms="9547" started-at="2020-09-04T00:27:25 EDT" data-provider="setData" finished-at="2020-09-04T00:27:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emp#1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MNBlkj098)(*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="tearDown" is-config="true" duration-ms="670" started-at="2020-09-04T00:27:35 EDT" finished-at="2020-09-04T00:27:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="setUp" is-config="true" duration-ms="7377" started-at="2020-09-04T00:27:35 EDT" finished-at="2020-09-04T00:27:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="loginTests" duration-ms="10839" started-at="2020-09-04T00:27:43 EDT" data-provider="setData" finished-at="2020-09-04T00:27:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emp#2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MNBlkj098)(*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-09-04T00:27:54 EDT" finished-at="2020-09-04T00:27:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="setUp" is-config="true" duration-ms="6626" started-at="2020-09-04T00:27:54 EDT" finished-at="2020-09-04T00:28:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="loginTests" duration-ms="9126" started-at="2020-09-04T00:28:01 EDT" data-provider="setData" finished-at="2020-09-04T00:28:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emp#3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MNBlkj098)(*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="tearDown" is-config="true" duration-ms="646" started-at="2020-09-04T00:28:10 EDT" finished-at="2020-09-04T00:28:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="setUp" is-config="true" duration-ms="6720" started-at="2020-09-04T00:28:11 EDT" finished-at="2020-09-04T00:28:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="loginTests" duration-ms="8705" started-at="2020-09-04T00:28:17 EDT" data-provider="setData" finished-at="2020-09-04T00:28:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emp#4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MNBlkj098)(*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="tearDown" is-config="true" duration-ms="661" started-at="2020-09-04T00:28:26 EDT" finished-at="2020-09-04T00:28:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="setUp" is-config="true" duration-ms="6959" started-at="2020-09-04T00:28:27 EDT" finished-at="2020-09-04T00:28:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="loginTests" duration-ms="10034" started-at="2020-09-04T00:28:34 EDT" data-provider="setData" finished-at="2020-09-04T00:28:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastName5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emp#5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MNBlkj098)(*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.tests.HRMLoginTest@cb51256]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-09-04T00:28:44 EDT" finished-at="2020-09-04T00:28:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.syntax.tests.HRMLoginTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeTest -->
+</testng-results>
