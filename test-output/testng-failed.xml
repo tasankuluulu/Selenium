@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
@@ -13,3 +14,21 @@
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
+=======
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.syntax.tests.HRMLoginTest">
+        <methods>
+          <include name="loginTests" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.syntax.tests.HRMLoginTest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->
+>>>>>>> a390b29f2796d4e4aeba15f7d7f5f1f9617e5e30

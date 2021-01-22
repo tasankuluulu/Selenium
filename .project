@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>SeleniumJavaBatch7</name>
+=======
+	<name>Selenium</name>
+>>>>>>> a390b29f2796d4e4aeba15f7d7f5f1f9617e5e30
 	<comment></comment>
 	<projects>
 	</projects>
